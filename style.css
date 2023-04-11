@@ -1,0 +1,157 @@
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.app_title {
+            text-align: center;
+            font-size: 30px;
+            /* margin-bottom: 50px; */
+            border: 1px solid white;
+            background: tomato;
+        }
+
+        div.app_title>h1>span {
+            /* use display inline-block in order to use margins */
+            display: inline-block;
+            /* margin-top: -30px; */
+            background-color: tomato;
+            padding-bottom: 5px;
+            border-bottom: 5px solid rgb(0, 255, 166);
+            color: rgb(0, 255, 166);
+            text-shadow: 4px -2px 9px rgba(39, 185, 43, 0.37);
+            border-radius: 5px;
+        }
+
+        /* main section styling  */
+        main {
+            background-color: #0A0A23;
+            color: white;
+            padding: 20px 0;
+        }
+
+
+        /* global settings for anchor elements  */
+        main a {
+            text-decoration: none;
+            color: #0A0A23;
+            background: tomato;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+
+        div.sub_title>a {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+
+        /* Section 2 Styling */
+        section.things_cats_love {
+            padding: 10px 0 20px 0;
+            background-color: #FFDAB9;
+        }
+
+        section.things_cats_love h2:nth-child(1) {
+            text-align: center;
+            color: #0a0a23;
+            font-size: 40px;
+        }
+
+        h2 span:nth-child(1) {
+            background-color: #ff6347;
+            padding: 0 5px;
+            color: #ffdab9;
+            font-size: 45px;
+        }
+
+        div.sleeping_cat {
+            text-align: center;
+        }
+
+        div.sleeping_cat>img {
+            text-align: center;
+            max-width: 400px;
+        }
+
+        /*  styling list of things that cats love  */
+
+        div.cats_loving_items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px 0;
+        }
+
+        div.list {
+            background-color: aqua;
+            padding: 0 10px;
+        }
+
+        div.cats_loving_items ul {
+            /* background-color: #0A0A23; */
+            text-align: center;
+            list-style: none;
+            padding-inline-start: 0;
+        }
+
+        div.cats_loving_items ul li {
+            display: inline-block;
+            padding: 0 8px;
+            background-color: #ff6347;
+            font-size: 25px;
+            text-transform: uppercase;
+            /* margin: 0 15px; */
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Section 2 --> things that Cats Hate  */
+        .section_2 {
+            background-color: tomato;
+            padding: 20px 0
+        }
+
+        .section_2 h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .section_2 h2 span {
+            background-color: #0A0A23;
+        }
+
+        div.things_cats_hate {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div.things_cats_hate ul {
+            text-decoration: none;
+            padding-inline-start: 0;
+        }
+
+        div.things_cats_hate>div.listed_items {
+            background-color: #ffdab9;
+            margin: 10px 0;
+        }
+
+        div.things_cats_hate ul li {
+            display: inline-block;
+            padding: 0 8px;
+            background-color: black;
+            font-size: 25px;
+            text-transform: uppercase;
+            margin: 0 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* image styling */
+        .things_cats_hate img {
+            max-width: 400px;
+        }
